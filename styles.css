@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Oxanium", sans-serif;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#hero {
+  font-family: "Oxanium", sans-serif;
+  background-color: #0000009a;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-logo {
+  width: 300px;
+}
+
+/*
+Challenge:
+Add a blurred border around the <h1> using
+the text-shadow technique you just learned. Set
+the blur to 4px and the color to black.
+*/
+
+h1 {
+  text-shadow: 0 0 4px black;
+  font-size: 48px;
+}
+
+.btn {
+  padding: 16px 32px;
+  background: rgb(0, 0, 0);
+  border: none;
+  font-family: "Oxanium", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+}
